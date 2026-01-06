@@ -5,7 +5,7 @@ from httpx import AsyncClient, ASGITransport
 from asgi_lifespan import LifespanManager
 
 from app.main import app
-from app.db.session import Base, get_db
+from ..app.db.session import Base, get_db
 
 
 TEST_SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
