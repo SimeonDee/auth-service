@@ -31,7 +31,7 @@ jobs:
 
   test:
     name: Test, Lint & Coverage
-    needs: pre-commit
+    # needs: pre-commit
     runs-on: ubuntu-latest
     strategy:
       matrix:
