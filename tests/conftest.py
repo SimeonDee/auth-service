@@ -1,11 +1,18 @@
 import pytest
+import sys
+from pathlib import Path
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from httpx import AsyncClient, ASGITransport
 from asgi_lifespan import LifespanManager
 
-from ..app.main import app
-from ..app.db.session import Base, get_db
+# ensure project root is on sys.path so tests can import the `app` package
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
+from app.main import app  # noqa: E402
+from app.db.session import Base, get_db  # noqa: E402
 
 
 TEST_SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
