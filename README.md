@@ -1,7 +1,7 @@
 # Auth Service - SAS School Management System 🚀
 
-[![Owner](https://img.shields.io/badge/owner-{owner}-blue.svg)](https://github.com/{owner})
-[![CI](https://github.com/{owner}/{repo}/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/{owner}/{repo}/actions/workflows/ci.yml) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/{owner}/{repo}/main.svg)](https://results.pre-commit.ci/latest/github/{owner}/{repo}/main) [![codecov](https://codecov.io/gh/{owner}/{repo}/branch/main/graph/badge.svg)](https://codecov.io/gh/{owner}/{repo}) 
+[![Owner](https://img.shields.io/badge/owner-SimeonDee-blue.svg)](https://github.com/SimeonDee)
+[![CI](https://github.com/SimeonDee/auth-service/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/SimeonDee/auth-service/actions/workflows/ci.yml) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/SimeonDee/auth-service/main.svg)](https://results.pre-commit.ci/latest/github/SimeonDee/auth-service/main) [![codecov](https://codecov.io/gh/SimeonDee/auth-service/branch/main/graph/badge.svg)](https://codecov.io/gh/SimeonDee/auth-service) 
 
 **A production-ready FastAPI Auth Service** built as a solid starting point for web APIs. This project demonstrates a auth setup with JWT authentication, async SQLAlchemy + PostgreSQL, Alembic migrations, Docker support, tests, and a clear service/schema separation.
 
