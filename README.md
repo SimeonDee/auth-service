@@ -1,8 +1,8 @@
-# School Project — FastAPI Production Scaffold 🚀
+# Auth Service - SAS School Management System 🚀
 
 [![CI](https://github.com/{owner}/{repo}/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/{owner}/{repo}/actions/workflows/ci.yml) [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/{owner}/{repo}/main.svg)](https://results.pre-commit.ci/latest/github/{owner}/{repo}/main) [![codecov](https://codecov.io/gh/{owner}/{repo}/branch/main/graph/badge.svg)](https://codecov.io/gh/{owner}/{repo})
 
-**A production-ready FastAPI scaffold** built as a solid starting point for web APIs. This project demonstrates a typical, opinionated setup with JWT authentication, async SQLAlchemy + PostgreSQL, Alembic migrations, Docker support, tests, and a clear service/schema separation.
+**A production-ready FastAPI Auth Service** built as a solid starting point for web APIs. This project demonstrates a auth setup with JWT authentication, async SQLAlchemy + PostgreSQL, Alembic migrations, Docker support, tests, and a clear service/schema separation.
 
 ---
 
@@ -62,6 +62,8 @@
    ```
 
 Open Swagger UI: http://127.0.0.1:8000/docs
+
+Open ReDoc UI: http://127.0.0.1:8000/redoc
 
 ---
 
