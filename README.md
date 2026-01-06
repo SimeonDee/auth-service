@@ -135,7 +135,7 @@ Quick example (register + token):
 # Register
 curl -s -X POST http://localhost:8000/api/v1/auth/register \
   -H "Content-Type: application/json" \
-  -d '{"email":"user@example.com","password":"secret"}'
+  -d '{"email":"user@example.com","password":"secret","first_name":"first name","middle_name":"", "last_name":"last name","role":"teacher","is_aactive":false}'
 
 # Get token
 curl -s -X POST http://localhost:8000/api/v1/auth/token \
@@ -184,7 +184,7 @@ tests/             # pytest tests
 ---
 
 ## Contributing 🤝
-Contributions are welcome — please see `CONTRIBUTING.md` for details on the contribution workflow and PR checklist.
+Contributions are welcome — please see [`CONTRIBUTING.md`](./CONTRIBUTING.md) for details on the contribution workflow and PR checklist.
 
 **Quick notes:**
 - CI is configured via GitHub Actions to run tests and linters on PRs (`.github/workflows/ci.yml`).
@@ -194,7 +194,7 @@ Contributions are welcome — please see `CONTRIBUTING.md` for details on the co
 ---
 
 ## License 📄
-This project is licensed under the terms in the `LICENSE` file.
+This project is licensed under the terms in the [`LICENSE`](./LICENSE) file.
 
 ---
 
